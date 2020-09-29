@@ -3,23 +3,22 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="./css/style.css">
-<script type="text/javascript/jquery-3.5.1.js"> charset="utf-8"
-</script>
+<script type="text/js/jquery-3.5.1.js" charset="utf-8"></script>
 <title></title>
-<script type="text/javascript"
-$(function() {
-	$('.sidebar a').each(function() {
-		$(this).on('click', function(e) {
-			e.preventDefault();
-			var scrollTo = $(this).attr('href');
-			var whitespace = scrollTo == '#s1' ? 70 : 30;
-			$('html,body').animate({
-				scrollTop: $(scrollTo).offset().top - whitespace
-			}, 1000);
-		});
-	});
-});>
-  </script>
+<script type="text/js">
+  $(function() {
+	  $('.sidebar a').each(function() {
+		  $(this).on('click', function(e) {
+			  e.preventDefault();
+			  var scrollTo = $(this).attr('href');
+			  var whitespace = scrollTo == '#s1' ? 70 : 30;
+			  $('html,body').animate({
+				  scrollTop: $(scrollTo).offset().top - whitespace
+			  }, 1000);
+		  });
+	  });
+  });>
+</script>
 </head>
 <body>
   <nav>
