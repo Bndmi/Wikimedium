@@ -20,3 +20,8 @@ a { color: inherit;
   color: #aaa;
   text-decoration: none;
 }
+.menubar img{
+  height: 100%;
+  width: auto;
+  margin-top: 0px;
+}
